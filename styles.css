@@ -285,8 +285,13 @@ aside {
 }
 
 /*product details*/
+.add-to-cart-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
 
-product-detail-close {
+.product-detail-close {
     background: var(--white);
     width: 14px;
     height: 14px;
@@ -372,6 +377,8 @@ product-detail-close {
         width: 140px;
         height: 140px;
     }
+    #productDetail {
+        width: 100%;
 }
 @media (min-width: 640px){
     .mobile-menu{
