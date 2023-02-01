@@ -379,6 +379,7 @@ aside {
     }
     #productDetail {
         width: 100%;
+    }
 }
 @media (min-width: 640px){
     .mobile-menu{
